@@ -56,9 +56,9 @@ except URLError as e:
 # # display the data on the page
 # streamlit.dataframe(fruityvice_normalized)
 
-streamlit.stop()
+# streamlit.stop()x
 
-import snowflake.connector
+# import snowflake.connector
 
 
 streamlit.header("The fruit load list contains:") #Snowflake-related functions
